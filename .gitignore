@@ -1,0 +1,9 @@
+# Файл .gitignore
+.idea/
+.DS_Store
+*.log
+*.sql
+!init.sql       # Оставляем init.sql, если он нужен для развертывания
+docker-compose.override.yml
+vendor/         # Если есть PHP Composer
+node_modules/   # Если есть JS

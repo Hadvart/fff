@@ -1,0 +1,14 @@
+.policy {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.policy.green {
+    color: green;
+}
+
+#password-policies {
+    margin-top: 10px;
+    font-size: 14px;
+}
